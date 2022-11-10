@@ -1,0 +1,9 @@
+
+h3 {
+	background-color: white;
+	font-weight: none;
+}
+		
+h3:hover {
+	font-weight: bold;
+}

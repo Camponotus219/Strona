@@ -1,0 +1,63 @@
+.hover-bold {
+	font-size: 16px;
+}
+		
+.hover-bold:hover {
+	font-weight: bold;
+}
+
+body {
+	background-image:tło.jpg;
+	font-style: font-family:Brush Script MT;
+		}
+		
+body {
+  background-image: url("tło.jpg");
+  font-style: font-family:Brush Script MT;
+}
+
+h1 {font-size: 40px;
+
+}
+
+.back-button {
+  text-decoration: none;
+  color: white;
+  border-style: none;
+  
+  display: inline-block;
+  
+  background-image: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+  
+  padding: 1em 0.5em;
+  
+  transition: all 200ms ease-in-out;
+  box-shadow: 0 0 0 0 inset rgb(255, 255, 255);
+}
+
+.back-button:hover {
+  color: black;
+  transition: all 200ms ease-in-out;
+  box-shadow: 7em 0px 0px 0px inset rgb(255, 255, 255);
+}
+
+.button {
+  text-decoration: none;
+  color: RGB(0, 0, 0);
+  border-style: none;
+  
+  display: inline-block;
+  
+  background-image: linear-gradient(rgb(84, 186, 191), rgb(84, 186, 191));
+  
+  padding: 1em 0.5em;
+  
+  transition: all 200ms ease-in-out;
+  box-shadow: 0 0 0 0 inset rgb(241, 137, 250);
+}
+
+.button:hover {
+  color: RGB(255, 255, 255);
+  transition: all 200ms ease-in-out;
+  box-shadow: 7em 0px 0px 0px inset rgb(241, 137, 250);
+}
